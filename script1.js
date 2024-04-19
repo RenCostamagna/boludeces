@@ -18,7 +18,7 @@ const resultadoNum = fechaNum.getDate() + " " + mes + " " + fechaNum.getFullYear
 console.log(resultadoNum)*/
 
 /*-----------------------------------------
-CON EL SET SETEO UN ANO, MES, DIA, ETC...*/
+CON EL SET SETEO UN ANO, MES, DIA, ETC...
 const fecha = new Date()
 fecha.setFullYear(2029)
 fecha.setMonth(9)
@@ -27,4 +27,4 @@ let meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','
 'Noviembre','Diciembre']
 
 let resultado = fecha.getDate() + " " + meses[fecha.getMonth()] + " " + fecha.getFullYear()
-console.log (resultado)
+console.log (resultado)*/
